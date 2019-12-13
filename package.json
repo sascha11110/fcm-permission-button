@@ -1,0 +1,27 @@
+{
+  "name": "fcm-permission-button",
+  "version": "1.0.0",
+  "description": "Small button implementation for requesting a Firebase Cloud Messaging (FCM) token.",
+  "main": "index.js",
+  "author": "Sascha Beele",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "firebase": "^7.5.2"
+  }
+}

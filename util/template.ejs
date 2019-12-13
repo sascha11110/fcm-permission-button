@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Request FCM permission</title>
+</head>
+<body>
+    <div id="button"></div>
+    <script type="text/javascript">
+        FCMButton.init({
+            container: 'button',
+            firebase: {
+                config: {
+                    apiKey: '<KEY>',
+                    projectId: '<ID>',
+                    messagingSenderId: '<ID>',
+                    appId: '<ID>'
+                },
+                publicVapidKey: ''
+            },
+            tokenServer: {}
+        });
+    </script>
+</body>
+</html>

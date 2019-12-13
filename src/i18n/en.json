@@ -1,0 +1,9 @@
+{
+    "buttonTitle": "Enable Push-Notifications",
+    "missingNotificationAPI": "Your browser does not support notifications.",
+    "permissionGranted": "Notifcations successfully activated.",
+    "permissionAlreadyGranted": "Notifcations have already been activated.",
+    "permissionDenied": "You denied to receive notficiations.",
+    "permissionPreviouslyDenied": "You have previously denied notifications from this website. Please check the settings in your browser.",
+    "somethingWentWrong": "Sorry, something went wrong."
+}
